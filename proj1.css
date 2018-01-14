@@ -1,0 +1,183 @@
+body{
+	background-color: #66d9ff;
+	text-align: center;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid black;
+	width: 50%;
+	background-color: #F5F5DC;
+	font-weight: bold;
+}
+td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#infoButtons{
+	text-align: right;
+}
+
+#clock{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background-color: #F5F5DC;
+	border: 4px solid #000;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px 0px black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#innerClock{
+	position: absolute;
+	width: 94%;
+	height: 94%;
+	background-color: #F5F5DC;
+	border-radius: 1000px; 
+    left: 3%;
+    top: 3%
+}
+
+/* The hours and hr code positions the numbers (1-12) on the clock appropriately */
+.hours{
+	position:absolute;
+	height: 100%;
+	left: calc(50% - 0.5em);
+}
+
+.hours div{
+	width: 1em;
+	line-height: 3em;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: -1px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#hr1{
+	transform: rotate(30deg);
+}
+#hr1 div{
+	transform: rotate(-30deg);
+}
+
+#hr2{
+	transform: rotate(60deg);
+}
+#hr2 div{
+	transform: rotate(-60deg);
+}
+
+#hr3{
+	transform: rotate(90deg);
+}
+#hr3 div{
+	transform: rotate(-90deg);
+}
+
+#hr4{
+	transform: rotate(120deg);
+}
+#hr4 div{
+	transform: rotate(-120deg);
+}
+
+#hr5{
+	transform: rotate(150deg);
+}
+#hr5 div{
+	transform: rotate(-150deg);
+}
+
+#hr6{
+	transform: rotate(180deg);
+}
+#hr6 div{
+	transform: rotate(-180deg);
+}
+
+#hr7{
+	transform: rotate(210deg);
+}
+#hr7 div{
+	transform: rotate(-210deg);
+}
+
+#hr8{
+	transform: rotate(240deg);
+}
+#hr8 div{
+	transform: rotate(-240deg);
+}
+
+#hr9{
+	transform: rotate(270deg);
+}
+#hr9 div{
+	transform: rotate(-270deg);
+}
+
+#hr10{
+	transform: rotate(300deg);
+}
+#hr10 div{
+	transform: rotate(-300deg);
+}
+
+#hr11{
+	transform: rotate(330deg);
+}
+#hr11 div{
+	transform: rotate(-330deg);
+}
+
+#hr12{
+	transform: rotate(360deg);
+}
+
+#hrHand{
+	position: absolute;
+	width: 5px;
+	height: 25%;
+	top: 25%;
+	left: 50%;
+	margin-left: -2.5px;
+	background-color: black;
+	transform-origin: bottom; 
+	transform: rotate(360deg);
+}
+
+#minHand{
+	position: absolute;
+	width: 3px;
+	height: 40%;
+	top: 10%;
+	left: 50%;
+	margin-left: -1.5px;
+	background-color: blue;
+	transform-origin: bottom;
+	transform: rotate(360deg);
+}
+
+#centerDot{
+	position: absolute;
+	width: 20px;
+    height: 20px;
+    border-radius: 20px;
+	top: 50%;
+	left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+	background-color: black;
+}
+
+#answer span{
+	font-size: 20px;
+}

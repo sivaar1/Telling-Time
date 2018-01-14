@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Telling Time Game!</title>
+	<link rel="stylesheet" type="text/css" href="proj1.css">
+	<script type="text/javascript" src="proj1.js"></script>
+</head>
+<body>
+
+	<div id="infoButtons">
+		<button onclick="getData()">Get Scores</button>
+		<button onclick="existPlayer()">Log In</button>
+		<button onclick="newPlayer()">Sign Up</button>
+	</div>
+
+	<div>
+		<h1>Can You Tell Time?</h1>
+	</div>
+
+	<div id="clock">
+		
+		<script type="text/javascript">addMarkers()</script>
+		<div id="innerClock"></div>
+		
+		<div id="hr1" class ="hours"><div>1</div></div>
+		<div id="hr2" class ="hours"><div>2</div></div>
+		<div id="hr3" class ="hours"><div>3</div></div>
+		<div id="hr4" class ="hours"><div>4</div></div>
+		<div id="hr5" class ="hours"><div>5</div></div>
+		<div id="hr6" class ="hours"><div>6</div></div>
+		<div id="hr7" class ="hours"><div>7</div></div>
+		<div id="hr8" class ="hours"><div>8</div></div>
+		<div id="hr9" class ="hours"><div>9</div></div>
+		<div id="hr10" class ="hours"><div>10</div></div>
+		<div id="hr11" class ="hours"><div>11</div></div>
+		<div id="hr12" class ="hours"><div>12</div></div>
+		
+		<div id="hrHand"></div>
+		<div id="minHand"></div>
+		<div id="centerDot"></div>
+		
+	</div>
+	
+	<br />
+	
+	<div id="answer">
+		<span>Enter the Time: </span>
+		<input type="text" value=""></input>
+		<span> Hours </span>
+		<input type="text" value=""></input>
+		<span> Minutes </span>
+		<button id="usrButton" onclick="">Submit</button>
+	</div>
+
+	<script type="text/javascript">initGame()</script>
+	
+</body>
+</html>
